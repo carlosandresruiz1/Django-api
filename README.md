@@ -51,4 +51,20 @@ dentro de la carpeta de DjangoAPI usar:
 ```bash
 ...\> py manage.py runserver
 ```
-esto hara que el servidor de backend quede arriba :)
+esto hara que el servidor de API quede funcionado
+
+## Postman
+Ejemplos de las respuestas de la API se encuentran en este directorio:
+-> DjangoAPI/Api json responces
+
+## Usando el API con postman 
+
+todas las tablas de la base de datos funcionan con el API pero para esta activadad como ejemplo usaremos:
+artist
+album
+song
+la url para usar la API es:  [localhost]/api/[tabla] por ejemplo : http://127.0.0.1:8000/api/artist 
+
+si se quiere utilar la informacion de un solo objeto se incluye el id en la url: http://127.0.0.1:8000/api/artist/16
+
+
